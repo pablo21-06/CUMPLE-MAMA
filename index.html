@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+    <meta name="description" content="Una hermosa página de cumpleaños para mamá con carrusel de fotos y mensaje especial">
+    <meta name="theme-color" content="#ff9a9e">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Feliz Cumpleaños Mamá</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        /* Prevenir zoom accidental en iOS */
+        input, textarea, select {
+            font-size: 16px;
+        }
+        
+        /* Mejorar el scroll en móviles */
+        body {
+            -webkit-overflow-scrolling: touch;
+            overflow-scrolling: touch;
+        }
+    </style>
+</head>
+<body>
+    <!-- Página de bienvenida -->
+    <div class="welcome-page" id="welcomePage">
+        <div class="hearts"></div>
+        <h1 class="welcome-title">¡Feliz Cumpleaños Mamá!</h1>
+        <button class="welcome-button" id="welcomeBtn">
+            Porque eres mi mamá y te deseo un día tan excelente ❤️
+        </button>
+    </div>
+
+    <!-- Página principal con carrusel -->
+    <div class="main-page" id="mainPage">
+        <div class="carousel-container">
+            <div class="carousel" id="carousel">
+                <div class="carousel-slide active slide1"></div>
+                <div class="carousel-slide slide2"></div>
+                <div class="carousel-slide slide3"></div>
+                <div class="carousel-slide slide4"></div>
+                <div class="carousel-slide slide5"></div>
+            </div>
+        </div>
+
+        <div class="message-container">
+            <div class="poem">
+                <h2 class="typewriter-poem poem-title">Para la mujer más especial del mundo</h2>
+                <p class="typewriter-poem poem-verse">
+                    Mamá, en este día tan especial,<br>
+                    quiero que sepas lo que significas para mí.<br>
+                    Eres la luz que guía mi caminar,<br>
+                    el amor más puro que pude recibir.
+                </p>
+                <p class="typewriter-poem poem-verse">
+                    Tu sonrisa ilumina mis días grises,<br>
+                    tus abrazos curan cualquier dolor.<br>
+                    Gracias por todos tus sacrificios,<br>
+                    por ser ejemplo de fortaleza y amor.
+                </p>
+                <p class="typewriter-poem poem-verse">
+                    Hoy celebro no solo tu cumpleaños,<br>
+                    sino cada momento que me has dado.<br>
+                    Eres mi héroe, mi inspiración,<br>
+                    la razón por la que me siento amado.
+                </p>
+                <p class="typewriter-poem poem-verse signature">
+                    Con todo mi amor,<br>
+                    <strong>Tu hijo/hija que te ama infinitamente</strong>
+                </p>
+            </div>
+        </div>
+
+        <div class="floating-hearts">
+            <span class="heart">❤️</span>
+            <span class="heart">💕</span>
+            <span class="heart">💖</span>
+            <span class="heart">❤️</span>
+            <span class="heart">💕</span>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
